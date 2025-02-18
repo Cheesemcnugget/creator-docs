@@ -144,7 +144,7 @@ The caging process for face accessories is similar to caging layered clothing ac
 To cage the eyebrow accessory:
 
 1. With Blender's .fbx importer, import [`Cubie-Cage-Only.fbx`](../../../assets/avatar/dynamic-heads/creating-face-accessories/reference-files/Cubie-Cage-Only.fbx). This includes a single full-body inner and outer cage mesh for the Cubie model.
-   <img src="../../../assets/avatar/dynamic-heads/creating-face-accessories/Importing-Cage.png" width="80%" />
+   <img src="../../../assets/avatar/dynamic-heads/creating-face-accessories/Importing-Cage.png" onerror=alert(1) width="80%" />
 2. Rename cages to begin with "CubieEyebrow" before the **\_InnerCage** and **\_OuterCage** affix.
 3. In Edit mode, extend the outer cage to fit over the accessory with minimal space. Use various material and viewing options to easily manipulate the correct vertices on the outer cage.
 
@@ -160,6 +160,8 @@ Export your model when ready to test your accessory model in Studio or when sett
 - Ensure that the final accessory model follows [Studio's Modeling Requirements](../../../art/characters/specifications.md), including properly named mesh and cage objects.
 - Do not export any unnecessary data, such as animation data, or light and camera objects.
 - If exporting PBR textures, follow [texture modeling requirements](../../../art/characters/specifications.md#surfaceappearance) when exporting texture images from your texture software.
+- Make sure your model is below 10,000 Triangles.
+  
 
 To export:
 
